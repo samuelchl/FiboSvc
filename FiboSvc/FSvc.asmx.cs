@@ -31,11 +31,7 @@ namespace FiboSvc
 
             try
             {
-
-                //restrictions 1 <= N <= 100
-                if (n < 1 || n > 100)
-                    return -1;
-
+                
                 var res = Mth.CalculateFibonacci(n);
 
                 log.Info(string.Format("Retour Fibonnacci - resultat = {0}", res));
@@ -59,11 +55,7 @@ namespace FiboSvc
 
             try
             {
-
-                //restrictions 1 <= N <= 100
-                if (n < 1 || n > 100)
-                    return JsonConvert.SerializeObject(-1);
-
+                
                 var res = JsonConvert.SerializeObject(Mth.CalculateFibonacci(n));
 
                 log.Info(string.Format("Retour FibonacciJSON - resultat = {0}", res));

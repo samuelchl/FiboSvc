@@ -124,12 +124,16 @@
       <DependentUpon>FSvc.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Logic\Mth.cs" />
-    <Compile Include="Logic\WebUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{3d7ffeca-fe08-4507-9cf5-77f3fd523179}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

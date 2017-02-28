@@ -7,7 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboSvc", "FiboSvc\FiboSvc.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboClient", "FiboClient\FiboClient.csproj", "{E92E9BA7-C9EB-4AC3-BC12-422B79E42873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboTest", "FiboTest\FiboTest.csproj", "{FE58454C-01FF-4BB1-B217-EC03D2E925EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{3D7FFECA-FE08-4507-9CF5-77F3FD523179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboUnitTest", "FiboUnitTest\FiboUnitTest.csproj", "{EB6305A7-E025-4B7C-ACC2-D58F53C4B586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiboIntTest", "FiboIntTest\FiboIntTest.csproj", "{FE58454C-01FF-4BB1-B217-EC03D2E925EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FbSvcWebApi", "FbSvcWebApi\FbSvcWebApi.csproj", "{CBBAEB09-613E-438E-8FDF-991EB738E311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +29,22 @@ Global
 		{E92E9BA7-C9EB-4AC3-BC12-422B79E42873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E92E9BA7-C9EB-4AC3-BC12-422B79E42873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E92E9BA7-C9EB-4AC3-BC12-422B79E42873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7FFECA-FE08-4507-9CF5-77F3FD523179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7FFECA-FE08-4507-9CF5-77F3FD523179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7FFECA-FE08-4507-9CF5-77F3FD523179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7FFECA-FE08-4507-9CF5-77F3FD523179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6305A7-E025-4B7C-ACC2-D58F53C4B586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6305A7-E025-4B7C-ACC2-D58F53C4B586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6305A7-E025-4B7C-ACC2-D58F53C4B586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6305A7-E025-4B7C-ACC2-D58F53C4B586}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE58454C-01FF-4BB1-B217-EC03D2E925EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE58454C-01FF-4BB1-B217-EC03D2E925EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE58454C-01FF-4BB1-B217-EC03D2E925EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE58454C-01FF-4BB1-B217-EC03D2E925EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBAEB09-613E-438E-8FDF-991EB738E311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBAEB09-613E-438E-8FDF-991EB738E311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBAEB09-613E-438E-8FDF-991EB738E311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBAEB09-613E-438E-8FDF-991EB738E311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
