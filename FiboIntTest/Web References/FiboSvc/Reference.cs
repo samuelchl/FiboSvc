@@ -13,7 +13,7 @@
 // 
 #pragma warning disable 1591
 
-namespace FiboTest.FiboSvc {
+namespace FiboIntTest.FiboSvc {
     using System;
     using System.Web.Services;
     using System.Diagnostics;
@@ -41,7 +41,7 @@ namespace FiboTest.FiboSvc {
         
         /// <remarks/>
         public FSvc() {
-            this.Url = global::FiboTest.Properties.Settings.Default.FiboTest_FiboSvc_FSvc;
+            this.Url = global::FiboIntTest.Properties.Settings.Default.FiboTest_FiboSvc_FSvc;
             if ((this.IsLocalFileSystemWebService(this.Url) == true)) {
                 this.UseDefaultCredentials = true;
                 this.useDefaultCredentialsSetExplicitly = false;

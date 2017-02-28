@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FiboTest
+namespace FiboIntTest
 {
     /// <summary>
     /// Description résumée pour UnitTest1
